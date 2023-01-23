@@ -11,4 +11,4 @@ enrollmentsRouter
   .get("/", getEnrollmentByUser)
   .post("/", validateBody(createEnrollmentSchema), postCreateOrUpdateEnrollment);
 
-export { enrollmentsRouter };
+export { enrollmentsRouter }
